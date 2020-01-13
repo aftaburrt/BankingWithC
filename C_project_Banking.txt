@@ -1,0 +1,323 @@
+ #include<stdio.h>
+ void main()
+ {
+     int a,pin=1122;
+     int aci,pass,ae;
+     printf("\t\t\t\t_________________________|||||_______________________");
+     printf("\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|\t\t\tWELCOME\t\t\t    |");
+     printf("\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|\t\t\t  TO\t\t\t    |");
+     printf("\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|\t            S.M.A.R.T BANK\t\t    |");
+     printf("\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|\t          (Dhanmondi branch)\t\t    |");
+     printf("\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|             website:www.smart_bank.bd\t\t    |");
+     printf("\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|\t\t\t\t\t\t    |\n\t\t\t\t|________________________|||||______________________|");
+     printf("\n\n\n\n\t\t  For official page press 1. For non-official page press 2. For new account press 3: ");
+     scanf("%d",&a);
+     if(a==1)
+     {
+         printf("\n\n\t\t\t\t\tThis site only for bank manager");
+         printf("\n\t\t\t\t\tPlease enter your pin:");
+         scanf("%d",&pin);
+         if(pin==1122)
+         {
+             printf("\n\t\t\t\t\tFor Acc. Holder details press 1. For employee details press 2 : ");
+             scanf("%d",&ae);
+             if(ae==1)
+             {
+                 printf("\n\n\t\t\t\t\tAccount Holder List:");
+                 printf("\n\t\t\t\t\t Name: Hemaddry Sarkar Rajon");
+                 printf("\n\t\t\t\t\t Acc. Number: 001");
+                 printf("\n\t\t\t\t\t Acc. type: savings");
+                 printf("\n\n\t\t\t\t\t Name: Muhammad Mansurul Mubin");
+                 printf("\n\t\t\t\t\t Acc. Number: 002");
+                 printf("\n\t\t\t\t\t Acc. type: savings");
+                 printf("\n\n\t\t\t\t\t Name: Ajwad Abid");
+                 printf("\n\t\t\t\t\t Acc. Number: 003");
+                 printf("\n\t\t\t\t\t Acc. type: savings");
+                 printf("\n\n\t\t\t\t\t Name: Syeda Lamima Farhat");
+                 printf("\n\t\t\t\t\t Acc. Number: 004");
+                 printf("\n\t\t\t\t\t Acc. type: savings");
+                 printf("\n\n\t\t\t\t\t Name: MD: Aftabur Rahman Tonmoy");
+                 printf("\n\t\t\t\t\t Acc. Number: 005");
+                 printf("\n\t\t\t\t\t Acc. type: savings\n\n\n");
+             }
+             else if(ae==2)
+             {
+                printf("\n\t\t\t\t\tPost : Managing Director\n");
+                printf("\n\t\t\t\t\tName : Sobur Khan\n");
+
+                printf("\n\n\t\t\t\t\tPost : CEO\n");
+                printf("\n\t\t\t\t\tName : Abdul Hamid\n");
+                printf("\n\t\t\t\t\tID : 10441\n");
+                printf("\n\t\t\t\t\tSalary : 1,20,000\n");
+
+                printf("\n\n\t\t\t\t\tPost : Senior Officer\n");
+                printf("\n\t\t\t\t\tName : Akter Hossain\n");
+                printf("\n\t\t\t\t\tID : 10442\n");
+                printf("\n\t\t\t\t\tSalary : 80,000\n");
+
+                printf("\n\n\t\t\t\t\tPost : Chief Accountant \n");
+                printf("\n\t\t\t\t\tName : Abdullah-Al-Fahim\n");
+                printf("\n\t\t\t\t\tID : 10443\n");
+                printf("\n\t\t\t\t\tSalary : 65,000\n");
+
+                printf("\n\n\t\t\t\t\tPost : Junior Officer(account section)\n");
+                printf("\n\t\t\t\t\tName : Sofiuddin-Sohan\n");
+                printf("\n\t\t\t\t\tID : 10444\n");
+                printf("\n\t\t\t\t\tSalary : 55,000\n");
+
+                printf("\n\n\t\t\t\t\tPost : Junior Officer(HRM)\n");
+                printf("\n\t\t\t\t\tName : Munni Aktar\n");
+                printf("\n\t\t\t\t\tID : 10445\n");
+                printf("\n\t\t\t\t\tSalary : 55,000\n");
+
+                printf("\n\n\t\t\t\t\tPost : Receptions\n");
+                printf("\n\t\t\t\t\tName : Mahim Khan\n");
+                printf("\n\t\t\t\t\tID : 10446\n");
+                printf("\n\t\t\t\t\tSalary : 35,000\n");
+
+                printf("\n\n\t\t\t\t\tPost : Office Stuff\n");
+                printf("\n\t\t\t\t\tName : Rasib Ahmed\n");
+                printf("\n\t\t\t\t\tID : 10447\n");
+                printf("\n\t\t\t\t\tSalary : 20,000\n");
+
+                printf("\n\n\t\t\t\t\tPost : Peon\n");
+                printf("\n\t\t\t\t\tName : Saidul Islam\n");
+                printf("\n\t\t\t\t\tID : 10448\n");
+                printf("\n\t\t\t\t\tSalary : 10,000\n");
+
+                printf("\n\n\t\t\t\t\tPost : Guard\n");
+                printf("\n\t\t\t\t\tName : Abdul Sheikh\n");
+                printf("\n\t\t\t\t\tID : 10449\n");
+                printf("\n\t\t\t\t\tSalary : 10,000");
+            }
+
+
+         }
+         else
+         {
+             printf("\n\n\t\t\t\t\tWrong pin");
+         }
+
+     }
+     else if(a==2)
+     {
+        printf("\n\n\t\t\t\t\tPlease enter your password: ");
+        scanf("%d",&pass);
+        if(pass==1231)
+        {
+            printf("\n\t\t\t\t\tHemaddry Sarkar Rajon");
+            printf("\n\t\t\t\tFor account status press 1. For ATM option press 2: ");
+            scanf("%d",&aci);
+            if(aci==1)
+            {
+                printf("\n\t\t\t\t\tThis is your account status :\n");
+                printf("\n\t\t\t\t\tAccount type =savings.\n");
+                printf("\n\t\t\t\t\tBalance      =15,000.00 Taka.\n");
+                printf("\n\t\t\t\t\tInterest     =0.4percent of total amount monthly.\n\n\n");
+            }
+            else if(aci==2)
+            {
+                int b,d,sum,blance=15000;
+                printf("\n\t\t\t\t\tATM option : ");
+                printf("\n\t\t\t\t\tFor withdraw press 1. Otherwise exit. : ");
+                scanf("%d",&b);
+                if(b==1)
+                {
+                    printf("\n\t\t\t\t\tYour current balance is = 15,000.00 Taka");
+                    printf("\n\t\t\t\t\tEnter balance :");
+                    scanf("%d",&d);
+                    sum=blance-d;
+                    printf("\n\t\t\t\t\tYour remaining balance is : %d\n\n\n",sum);
+
+                }
+                else
+                {
+                  printf("\n\t\t\t\t\tExit\n\n\n");
+
+                }
+            }
+
+        }
+
+        else if(pass==1232)
+        {
+            printf("\n\t\t\t\t\tMuhammad Mansurul Mubin");
+            printf("\n\t\t\t\tFor account status press 1. For ATM option press 2: ");
+            scanf("%d",&aci);
+            if(aci==1)
+            {
+                printf("\n\t\t\t\t\tThis is your account status :\n");
+                printf("\n\t\t\t\t\tAccount type =savings.\n");
+                printf("\n\t\t\t\t\tBalance      =20,000.00 Taka.\n");
+                printf("\n\t\t\t\t\tInterest     =0.4percent of total amount monthly.\n\n\n");
+            }
+            else if(aci==2)
+            {
+                int b,d,sum,blance=20000;
+                printf("\n\t\t\t\t\tATM option : ");
+                printf("\n\t\t\t\t\tFor withdraw press 1. Otherwise exit. : ");
+                scanf("%d",&b);
+                if(b==1)
+                {
+                    printf("\n\t\t\t\t\tYour current balance is = 20,000.00 Taka");
+                    printf("\n\t\t\t\t\tEnter balance :");
+                    scanf("%d",&d);
+                    sum=blance-d;
+                    printf("\n\t\t\t\t\tYour remaining balance is : %d\n\n\n",sum);
+
+                }
+                else
+                {
+                  printf("\n\t\t\t\t\tExit\n\n\n");
+
+                }
+            }
+
+
+        }
+
+        else if(pass==1233)
+        {
+            printf("\n\t\t\t\t\tAjwad Abid");
+            printf("\n\t\t\t\tFor account status press 1. For ATM option press 2: ");
+            scanf("%d",&aci);
+            if(aci==1)
+            {
+                printf("\n\t\t\t\t\tThis is your account status :\n");
+                printf("\n\t\t\t\t\tAccount type =savings.\n");
+                printf("\n\t\t\t\t\tBalance      =25,000.00 Taka.\n");
+                printf("\n\t\t\t\t\tInterest     =0.4percent of total amount monthly.\n\n\n");
+            }
+            else if(aci==2)
+            {
+                int b,d,sum,blance=25000;
+                printf("\n\t\t\t\t\tATM option : ");
+                printf("\n\t\t\t\t\tFor withdraw press 1. Otherwise exit. : ");
+                scanf("%d",&b);
+                if(b==1)
+                {
+                    printf("\n\t\t\t\t\tYour current balance is = 25,000.00 Taka");
+                    printf("\n\t\t\t\t\tEnter balance :");
+                    scanf("%d",&d);
+                    sum=blance-d;
+                    printf("\n\t\t\t\t\tYour remaining balance is : %d\n\n\n",sum);
+
+                }
+                else
+                {
+                  printf("\n\t\t\t\t\tExit\n\n\n");
+
+                }
+            }
+
+
+        }
+
+        else if(pass==1234)
+        {
+            printf("\n\t\t\t\t\tSyeda Lamima Farhat");
+            printf("\n\t\t\t\tFor account status press 1. For ATM option press 2: ");
+            scanf("%d",&aci);
+            if(aci==1)
+            {
+                printf("\n\t\t\t\t\tThis is your account status :\n");
+                printf("\n\t\t\t\t\tAccount type =savings.\n");
+                printf("\n\t\t\t\t\tBalance      =15,000.00 Taka.\n");
+                printf("\n\t\t\t\t\tInterest     =0.4percent of total amount monthly.\n\n\n");
+            }
+            else if(aci==2)
+            {
+                int b,d,sum,blance=15000;
+                printf("\n\t\t\t\t\tATM option : ");
+                printf("\n\t\t\t\t\tFor withdraw press 1. Otherwise exit. : ");
+                scanf("%d",&b);
+                if(b==1)
+                {
+                    printf("\n\t\t\t\t\tYour current balance is = 15,000.00 Taka");
+                    printf("\n\t\t\t\t\tEnter balance :");
+                    scanf("%d",&d);
+                    sum=blance-d;
+                    printf("\n\t\t\t\t\tYour remaining balance is : %d\n\n\n",sum);
+
+                }
+                else
+                {
+                    printf("\n\t\t\t\t\tExit\n\n\n");
+                }
+            }
+
+        }
+        else if(pass==1235)
+            {
+                    printf("\n\t\t\t\t\tMD: Aftabur Rahman Tonmoy");
+                    printf("\n\t\t\t\tFor account status press 1. For ATM option press 2: ");
+                    scanf("%d",&aci);
+                    if(aci==1)
+                    {
+                        printf("\n\t\t\t\t\tThis is your account status :\n");
+                        printf("\n\t\t\t\t\tAccount type =savings.\n");
+                        printf("\n\t\t\t\t\tBalance      =30,000.00 Taka.\n");
+                        printf("\n\t\t\t\t\tInterest     =0.4percent of total amount monthly.\n\n\n");
+                    }
+                    else if(aci==2)
+                    {
+                        int b,d,sum,blance=30000;
+                        printf("\n\t\t\t\t\tATM option : ");
+                        printf("\n\t\t\t\t\tFor withdraw press 1. Otherwise exit. : ");
+                        scanf("%d",&b);
+                        if(b==1)
+                        {
+                            printf("\n\t\t\t\t\tYour current balance is = 30,000.00 Taka");
+                            printf("\n\t\t\t\t\tEnter balance :");
+                            scanf("%d",&d);
+                            sum=blance-d;
+                            printf("\n\t\t\t\t\tYour remaining balance is : %d\n\n\n",sum);
+
+                        }
+                        else
+                        {
+                          printf("\n\t\t\t\t\tExit\n\n\n");
+
+                        }
+                    }
+            }
+     }
+     else if(a==3)
+        {
+            char name[20],FN[20],add[20],act[10],NN[20],GN[20],RN[10];
+            int phn,NF,GA,NID;
+            printf("\n\t\t\t\t\tThis is S.M.A.R.T bank account form.\n\t\t\t\t\tPlease fill it :\n");
+            printf("\n\t\t\t\t\tName : ");
+            getchar();
+            gets(name);
+            printf("\n\t\t\t\t\tFather name : ");
+            getchar();
+            gets(FN);
+            printf("\n\t\t\t\t\tAddress :");
+            getchar();
+            gets(add);
+            printf("\n\t\t\t\t\tAccount type : ");
+            getchar();
+            gets(act);
+            printf("\n\t\t\t\t\tPhone number : ");
+            scanf("%d",&phn);
+            printf("\n\t\t\t\t\tNID number : ");
+            scanf("%d",&NID);
+            printf("\n\t\t\t\t\tNomini name : ");
+            getchar();
+            gets(NN);
+            printf("\n\t\t\t\t\tNomini phone number : ");
+            scanf("%d",&NF);
+            printf("\n\t\t\t\t\tRelation with nomini : ");
+            getchar();
+            gets(RN);
+            printf("\n\t\t\t\t\tGranter name : ");
+            getchar();
+            gets(GN);
+            printf("\n\t\t\t\t\tGranter account number : ");
+            scanf("%d",&GN);
+            printf("\n\n\t\t\t\t\tSuccessfully Done.\n\n\t\t\t\t\tAfter verification your account will active in 3 days.\n");
+            printf("\n\t\t\t\t\tThank You for banking with us.\n\n\n");
+        }
+ }
+
